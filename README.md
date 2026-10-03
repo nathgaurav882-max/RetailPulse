@@ -17,6 +17,7 @@ a live, real-time-refreshing Power BI dashboard.
 - **KPIs:** Net Revenue, Return Rate %, Average Order Value, Customer Lifetime Value,
   Repeat Purchase Rate, Revenue by Country.
 
+## Technical Architecture
 ```mermaid
 flowchart LR
     A[Raw xlsx] --> B[Python Clean]
