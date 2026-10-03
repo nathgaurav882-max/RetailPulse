@@ -18,11 +18,11 @@ a live, real-time-refreshing Power BI dashboard.
   Repeat Purchase Rate, Revenue by Country.
 
 ```mermaid
-flowchart TD
-    A[Raw Source<br/>UCI .xlsx] --> B[Staging / Cleaning Layer<br/>Python - pandas - clean.py]
-    B --> C[Data Warehouse Layer<br/>PostgreSQL - Star Schema - schema.sql]
-    C --> D[Real-Time Ingestion Layer<br/>stream_producer_psycopg2.py]
-    D --> E[Semantic & Visualisation Layer<br/>Power BI - DirectQuery]
+flowchart LR
+    A[Raw xlsx] --> B[Python Clean]
+    B --> C[PostgreSQL Star Schema]
+    C --> D[Live Stream]
+    D --> E[Power BI]
 
     style A fill:#1F3864,color:#fff
     style B fill:#2E75B6,color:#fff
