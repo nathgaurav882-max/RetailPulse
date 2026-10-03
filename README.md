@@ -17,6 +17,17 @@ a live, real-time-refreshing Power BI dashboard.
 - **KPIs:** Net Revenue, Return Rate %, Average Order Value, Customer Lifetime Value,
   Repeat Purchase Rate, Revenue by Country.
 
-## Technical Architecture
+```mermaid
+flowchart TD
+    A[Raw Source<br/>UCI .xlsx] --> B[Staging / Cleaning Layer<br/>Python - pandas - clean.py]
+    B --> C[Data Warehouse Layer<br/>PostgreSQL - Star Schema - schema.sql]
+    C --> D[Real-Time Ingestion Layer<br/>stream_producer_psycopg2.py]
+    D --> E[Semantic & Visualisation Layer<br/>Power BI - DirectQuery]
 
-## Live Dashboard Preview then on the next line: ![Dashboard](image.png)
+    style A fill:#1F3864,color:#fff
+    style B fill:#2E75B6,color:#fff
+    style C fill:#1F3864,color:#fff
+    style D fill:#2E75B6,color:#fff
+    style E fill:#F2C811,color:#000
+```
+## Live Dashboard Preview ![Dashboard](image.png)
