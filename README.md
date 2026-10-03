@@ -1,5 +1,5 @@
 # RetailPulse — Business Intelligence Project 
-![Python](https://img.shields.io/badge/Python-3.14-blue) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791) ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811) ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.14-blue) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791) ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811) ![Status](https://img.shields.io/badge/Status-Complete-brightgreen) 
 
 **Course:** 23UDSPEL4704A – Business Intelligence | B.Tech CSE (Data Science), GHRCEM Pune
 **Team:** Gaurav, [Add Teammate Name]
@@ -18,3 +18,5 @@ a live, real-time-refreshing Power BI dashboard.
   Repeat Purchase Rate, Revenue by Country.
 
 ## Technical Architecture
+
+## Live Dashboard Preview then on the next line: ![Dashboard](image.png)
